@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
+
+  constructor(){
+    // setTimeout(() => {
+    //   this.title="title is chaned to to-do-list Application"
+    // }, 3000);
+  }
 }
